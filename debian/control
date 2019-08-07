@@ -1,0 +1,12 @@
+Source: ros-kinetic-actionlib-enhanced
+Section: misc
+Priority: extra
+Maintainer: Fabrice Poirier <fabrice.poirier@ensta-bretagne.org>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-message-runtime, ros-kinetic-rospy, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-actionlib-enhanced
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-message-runtime, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: The actionlib_enhanced package
